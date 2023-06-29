@@ -49,6 +49,22 @@ const quizData = [
         options: ['Shrink tea', 'Spill tea', 'Pour tea', 'Drink tea'],
         correctAnswer: 3,
     },
+    {
+        question: 'Дорога',
+        options: ['Moat', 'Road', 'Toad', 'Roar'],
+        correctAnswer: 1,
+    },
+    {
+        question: 'Море',
+        options: ['Seem', 'See', 'Seed', 'Sea'],
+        correctAnswer: 3,
+    },
+    {
+        question: 'Ветер',
+        options: ['Wind', 'Mind', 'Find', 'Grind'],
+        correctAnswer: 0,
+    },
+
     // Add more questions as needed
 ];
 
