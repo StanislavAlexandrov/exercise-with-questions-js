@@ -8,6 +8,7 @@ body {
     height: 100vh;
     flex-direction: column;
     gap: 20px;
+    font-size: 24px;
 }
 
 #options {
@@ -18,9 +19,15 @@ body {
 
 #options button {
     margin: 5px;
-    font-size: 20px;
-    padding: 10px;
+    font-size: 2rem; /* changed from 20px to 1.5rem */
+    padding: 20px; /* increased padding from 10px to 20px */
+    min-width: 120px; /* new */
+    min-height: 50px; /* new */
     -webkit-text-size-adjust: 100%; /* Prevent font scaling in landscape */
+    margin: 5px;
+
+    border-radius: 5px; /* Rounds the corners of the button */
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
 }
 
 #win-image {
@@ -29,4 +36,8 @@ body {
     width: auto;
     height: auto;
     object-fit: contain;
+}
+
+#feedback {
+    font-size: 2rem;
 }
